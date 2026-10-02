@@ -11,14 +11,28 @@
         "always_on_firewall_active": false
       },
       "allowed_apns": [
-        {
-          "name": "",
-          "apn": "",
-          "mcc": "",
-          "mnc": "",
-          "apn_type": "default|mms|supl|ims"
-        }
-      ],
+  {
+    "name": "Irancell-Internet",
+    "apn": "mtnirancell",
+    "mcc": "432",
+    "mnc": "35",
+    "apn_type": "default"
+  },
+  {
+    "name": "Rightel-Internet",
+    "apn": "rightel",
+    "mcc": "432",
+    "mnc": "20",
+    "apn_type": "default"
+  },
+  {
+    "name": "Rightel-Internet-2",
+    "apn": "rightel",
+    "mcc": "432",
+    "mnc": "21",
+    "apn_type": "default"
+  }
+],
       "allowed_sims": [
         {
           "label": "",
