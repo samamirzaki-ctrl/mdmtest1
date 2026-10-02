@@ -4,9 +4,8 @@
     "network": {
       "general": {
         "hotspot_restricted": true,
-        "mobile_data_restricted": false,
-        "mobile_network_configuration_blocked": false,
-        "data_roaming_blocked": false,
+        "mobile_network_configuration_blocked": true,
+        "data_roaming_blocked": true,
         "mobile_network_reset_blocked": false,
         "airplane_mode_restricted": false,
         "always_on_firewall_active": false
