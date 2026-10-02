@@ -21,18 +21,18 @@
 ],
       "allowed_sims": [
         {
-          "label": " rightel",
-          "iccid": "89982011228336802204"
+          "label": "",
+          "iccid": ""
         }
       ],
       "wifi": {
         "wifi_direct_active": false,
-        "wifi_active": false,
+        "wifi_active": true,
         "wifi_restricted": false,
         "allowed_wifis": [
           {
-            "ssid": "ssid-name",
-            "password": "password"
+            "ssid": "Sam",
+            "password": "13681367"
           }
         ]
       }
