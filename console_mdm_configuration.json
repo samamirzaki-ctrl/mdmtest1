@@ -3,7 +3,7 @@
   "client_status": {
     "network": {
       "general": {
-        "hotspot_restricted": false,
+        "hotspot_restricted": true,
         "mobile_data_restricted": false,
         "mobile_network_configuration_blocked": false,
         "data_roaming_blocked": false,
@@ -111,15 +111,15 @@
     },
     "device_management": {
       "restrict_reset_factory": {
-        "enabled": false
+        "enabled": true
       },
       "auto_upgrade_mdm": {
         "type": "{automatic|schedule}",
         "schedule": [
           {
             "day": "sat|sun|mon|tue|wed|thu|fri",
-            "start_time": "08:00",
-            "end_time": "16:00 (24h range)"
+            "start_time": "14:00",
+            "end_time": "15:00"
           }
         ]
       }
