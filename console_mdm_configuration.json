@@ -17,20 +17,6 @@
     "mcc": "432",
     "mnc": "35",
     "apn_type": "default"
-  },
-  {
-    "name": "Rightel-Internet",
-    "apn": "rightel",
-    "mcc": "432",
-    "mnc": "20",
-    "apn_type": "default"
-  },
-  {
-    "name": "Rightel-Internet-2",
-    "apn": "rightel",
-    "mcc": "432",
-    "mnc": "21",
-    "apn_type": "default"
   }
 ],
       "allowed_sims": [
