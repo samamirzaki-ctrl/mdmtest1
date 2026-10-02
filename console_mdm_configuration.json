@@ -1,0 +1,145 @@
+{
+  "timestamp": 1726700400000,
+  "client_status": {
+    "network": {
+      "general": {
+        "hotspot_restricted": false,
+        "mobile_data_restricted": false,
+        "mobile_network_configuration_blocked": false,
+        "data_roaming_blocked": false,
+        "mobile_network_reset_blocked": false,
+        "airplane_mode_restricted": false,
+        "always_on_firewall_active": false
+      },
+      "allowed_apns": [
+        {
+          "name": "",
+          "apn": "",
+          "mcc": "",
+          "mnc": "",
+          "apn_type": "default|mms|supl|ims"
+        }
+      ],
+      "allowed_sims": [
+        {
+          "label": "",
+          "iccid": ""
+        }
+      ],
+      "wifi": {
+        "wifi_direct_active": false,
+        "wifi_active": false,
+        "wifi_restricted": false,
+        "allowed_wifis": [
+          {
+            "ssid": "ssid-name",
+            "password": "password"
+          }
+        ]
+      }
+    },
+    "hardware": {
+      "bluetooth_active": false,
+      "bluetooth_restricted": false,
+      "bluetooth_configuration_restricted": false,
+      "camera_restricted": false,
+      "otg_sdcard_restricted": false,
+      "usb_transfer_restricted": false,
+      "gps_restricted": false,
+      "location_service_active": false
+    },
+    "system_settings": {
+      "date_time_restricted": false,
+      "safe_boot_restricted": false,
+      "developer_option_restricted": false
+    },
+    "edr_settings": {
+      "enabled": true,
+      "server_url": ""
+    },
+    "security_management": {
+      "account_modification_restricted": false
+    },
+    "app_permissions": [
+      {
+        "rule_name": "Permission app1",
+        "description": "",
+        "enabled": false,
+        "package_name": "com.example.app",
+        "permissions": [
+          "android.permission.BIND_ACCESSIBILITY_SERVICE"
+        ]
+      }
+    ],
+    "app_management": {
+      "suspended_applications": [
+        {
+          "package_name": "",
+          "enabled": false
+        }
+      ],
+      "kiosk_mode": {
+        "statusbar_visible": false,
+        "navigation_bar_visible": false,
+        "disabled_btn_home_recent_app": false,
+        "applications": [
+          {
+            "enabled": false,
+            "package_name": ""
+          }
+        ]
+      }
+    },
+    "device_actions": {
+      "system_update": {
+        "type": "{block|allow|schedule}",
+        "schedule": [
+          {
+            "day": "sat|sun|mon|tue|wed|thu|fri",
+            "start_time": "08:00",
+            "end_time": "16:00 (24h range)"
+          }
+        ]
+      },
+      "frp_whitelist": [
+        {
+          "enabled": false,
+          "gmail": "",
+          "gaid": ""
+        }
+      ]
+    },
+    "device_management": {
+      "restrict_reset_factory": {
+        "enabled": false
+      },
+      "auto_upgrade_mdm": {
+        "type": "{automatic|schedule}",
+        "schedule": [
+          {
+            "day": "sat|sun|mon|tue|wed|thu|fri",
+            "start_time": "08:00",
+            "end_time": "16:00 (24h range)"
+          }
+        ]
+      }
+    },
+    "device_owner_info": {
+      "is_device_owner": true,
+      "package_name": "com.padvish.antivirus.corporate.base"
+    },
+    "certificates_status": {
+      "installed_ca_certificates": [
+        {
+          "alias": "CorporateRootCA",
+          "subject": "CN=Amnpardaz Root CA",
+          "sha256_fingerprint": "A1:B2:C3:D4:E5:F6:..."
+        }
+      ]
+    },
+    "communications": {
+      "sms_configuration_blocked": false,
+      "outgoing_calls_blocked": false
+    }
+  }
+}
