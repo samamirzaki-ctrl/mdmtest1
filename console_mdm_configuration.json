@@ -11,13 +11,13 @@
         "always_on_firewall_active": false
       },
       "allowed_apns": [
-  {
-    "name": "Irancell-Internet",
-    "apn": "mtnirancell",
-    "mcc": "432",
-    "mnc": "35",
-    "apn_type": "default"
-  }
+   {
+          "name": "",
+          "apn": "",
+          "mcc": "",
+          "mnc": "",
+          "apn_type": "default|mms|supl|ims"
+        }
 ],
       "allowed_sims": [
         {
