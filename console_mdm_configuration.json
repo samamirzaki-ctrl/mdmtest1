@@ -78,13 +78,12 @@
         }
       ],
       "kiosk_mode": {
+        "enabled": true,
         "statusbar_visible": false,
-        "navigation_bar_visible": false,
         "disabled_btn_home_recent_app": false,
         "applications": [
           {
-            "enabled": false,
-            "package_name": ""
+            "package_name": "com.android.chrome"
           }
         ]
       }
