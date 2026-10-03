@@ -79,7 +79,7 @@
       ],
       "kiosk_mode": {
         "enabled": true,
-        "statusbar_visible": false,
+        "statusbar_visible": true,
         "disabled_btn_home_recent_app": false,
         "applications": [
           {
