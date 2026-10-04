@@ -61,19 +61,19 @@
     },
    "app_permissions": [
     {
-      "rule_name": "Install Permission - CamScanner",
+      "rule_name": "",
       "description": "",
-      "enabled": true,
-      "package_name": "com.intsig.camscanner",
+      "enabled": false,
+      "package_name": "",
       "permissions": [
-        "android.permission.CAMERA"
+        ""
       ]
     }
   ],
     "app_management": {
       "suspended_applications": [
         {
-          "package_name": "",
+          "package_name": "com.intsig.camscanner",
           "enabled": false
         }
       ],
