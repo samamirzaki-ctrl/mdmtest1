@@ -74,12 +74,12 @@
       "suspended_applications": [
         {
           "package_name": "com.intsig.camscanner",
-          "enabled": true
+          "enabled": false
         }
       ],
       "kiosk_mode": {
         "enabled": false,
-        "statusbar_visible": true,
+        "statusbar_visible": false,
         "disabled_btn_home_recent_app": false,
         "applications": [
           {
