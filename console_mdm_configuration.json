@@ -66,7 +66,7 @@
       "enabled": true,
       "package_name": "com.intsig.camscanner",
       "permissions": [
-        "android.permission.REQUEST_INSTALL_PACKAGES"
+        "android.permission.CAMERA"
       ]
     }
   ],
