@@ -74,7 +74,7 @@
       "suspended_applications": [
         {
           "package_name": "com.intsig.camscanner",
-          "enabled": false
+          "enabled": true
         }
       ],
       "kiosk_mode": {
