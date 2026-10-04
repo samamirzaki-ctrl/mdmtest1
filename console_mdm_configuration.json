@@ -59,17 +59,17 @@
     "security_management": {
       "account_modification_restricted": false
     },
-    "app_permissions": [
-      {
-        "rule_name": "Permission app1",
-        "description": "",
-        "enabled": false,
-        "package_name": "com.example.app",
-        "permissions": [
-          "android.permission.BIND_ACCESSIBILITY_SERVICE"
-        ]
-      }
-    ],
+   "app_permissions": [
+    {
+      "rule_name": "Install Permission - CamScanner",
+      "description": "",
+      "enabled": true,
+      "package_name": "com.intsig.camscanner",
+      "permissions": [
+        "android.permission.REQUEST_INSTALL_PACKAGES"
+      ]
+    }
+  ],
     "app_management": {
       "suspended_applications": [
         {
